@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+python-dotenv
+neo4j
+supabase
+groq
+langgraph
+sentence-transformers
+pymupdf
+openpyxl
+python-docx
+reportlab
+requests

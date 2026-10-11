@@ -1,0 +1,73 @@
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Build & Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# React Build
+dist/
+build/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Database / Local Files
+# =========================
+*.db
+*.sqlite3
+
+# =========================
+# Misc
+# =========================
+.cache/
